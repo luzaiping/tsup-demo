@@ -1,28 +1,29 @@
 {
-  "name": "@lucky/tsup-demo",
+  "name": "@lemhion1908/tsup-demo",
   "version": "1.0.0",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+http://git.lkcoffee.com/front/lucky-beans.git",
-    "directory": "packages/@lucky/tsup-demo"
-  },
+  "description": "tsup demo",
+  "keywords": [
+    "ts",
+    "tsup"
+  ],
+  "author": "Zaiping Lu <lemhion1908@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/luzaiping/tsup-demo",
+  "bugs": "https://github.com/luzaiping/tsup-demo/issues",
+  "repository": "github:luzaiping/tsup-demo",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "README.md",
     "examples",
     "dist"
   ],
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "pnpm test",
     "test": "jest",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
