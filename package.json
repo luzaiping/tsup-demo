@@ -22,7 +22,9 @@
   "scripts": {
     "prepare": "pnpm test",
     "test": "jest",
-    "build": "tsup"
+    "build": "tsup",
+    "publish:local": "pnpm build && yalc publish",
+    "push": "pnpm build && yalc push"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",

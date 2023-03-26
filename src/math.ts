@@ -7,3 +7,7 @@ export function subtract(a: number, b: number): number {
 }
 
 export const multiple = (a: number, b: number): number => a * b;
+
+export const divide = (a: number, b: number): number => {
+  return b ? a / b : NaN;
+}
